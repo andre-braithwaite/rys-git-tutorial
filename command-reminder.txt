@@ -1,0 +1,32 @@
+# Make local repo
+git init
+git status
+
+# Stage
+Make some files...
+git status
+git add -A
+git status
+
+# Commit
+git log
+git commit -a -m "Adding a message..."
+git log --oneline
+
+# Link to remote
+Create empty repo on GitHub site...
+git remote -v
+git remote add origin https://github.com/andre-braithwaite/rys-git-tutorial.git
+git remote -v
+
+# Push to remote
+git push -u origin master
+
+
+
+
+# Pull from GitHub
+# Clone from GitHub
+
+# Resources
+https://github.com/joshnh/Git-Commands
