@@ -22,11 +22,11 @@ git remote -v
 # Push to remote
 git push -u origin master
 
+# Pull from remote
+git pull origin master
 
+# Clone remote repo
+git clone https://github.com/andre-braithwaite/rys-git-tutorial.git
 
-
-# Pull from GitHub
-# Clone from GitHub
-
-# Resources
+# Other useful commands
 https://github.com/joshnh/Git-Commands
