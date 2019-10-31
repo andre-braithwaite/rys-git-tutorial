@@ -1,3 +1,11 @@
+# Make/Open a file from Windows Git Bash
+touch test-file.txt
+start test-file.txt
+
+# Set git username and email
+git config --global user.name "My Name"
+git config --global user.email "my@email.com"
+
 # Make local repo
 git init
 git status
