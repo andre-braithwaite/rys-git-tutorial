@@ -1,3 +1,10 @@
+# Useful functions added to Windows powershell profile
+function touch {New-Item -ItemType File -Name ($args[0])}
+function open {C:\Program` Files\Sublime` Text` 3\sublime_text.exe ($args[0])}
+
+set-executionpolicy remotesigned
+(To allow scripts)
+
 # Make local repo
 git init
 git status
