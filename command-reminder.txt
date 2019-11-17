@@ -2,7 +2,7 @@
 function touch {New-Item -ItemType File -Name ($args[0])}
 function open {C:\Program` Files\Sublime` Text` 3\sublime_text.exe ($args[0])}
 
-# Run in Powershell and Admin to allow scripts
+# Run in Powershell as admin to allow scripts
 set-executionpolicy remotesigned
 
 # Make/Open a file from Windows Git Bash
