@@ -2,8 +2,16 @@
 function touch {New-Item -ItemType File -Name ($args[0])}
 function open {C:\Program` Files\Sublime` Text` 3\sublime_text.exe ($args[0])}
 
+# Run in Powershell and Admin to allow scripts
 set-executionpolicy remotesigned
-(To allow scripts)
+
+# Make/Open a file from Windows Git Bash
+touch test-file.txt
+start test-file.txt
+
+# Set git username and email
+git config --global user.name "My Name"
+git config --global user.email "my@email.com"
 
 # Make local repo
 git init
